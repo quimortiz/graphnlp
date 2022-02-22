@@ -100,7 +100,7 @@ mv _site/* .
 rm -R _site/
 
 # Push to DEPLOY_BRANCH
-git add -fA
+git add -A
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 [[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
 
