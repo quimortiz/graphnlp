@@ -1,11 +1,26 @@
 ---
 layout: page
 title: Contact
-description: Have questions? I have answers.
 ---
 
-Author information:
-Joaquim Ortiz-Haro
+#### Joaquim Ortiz-Haro 
+
+[website](https://quimortiz.github.io/)
+
+Contact: quimortiz21 (at) gmail (dot) com
+
+
+#### Erez Karpas 
+
+[website](https://karpase.net.technion.ac.il/about-me/)
+
+#### Michael Katz 
+
+[website](https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Michael.Katz1)
+
+#### Marc Toussaint 
+
+[website](https://www.user.tu-berlin.de/mtoussai/)
 
 
 
