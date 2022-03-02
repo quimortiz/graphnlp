@@ -1,95 +1,123 @@
 ---
 layout: page
-title: Planning with nonlinear transition constraints
+title: Graph-NLP Planner
 description: J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint 
-background: '/img/bg-index.jpg'
+background: '/img/Screenshot from 2022-02-28 14-59-16-small.png'
 ---
+
+<style>
+.mydiv {
+
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+</style>
 
 Project webpage of the paper:
 
-<p>
-<b>Planning with nonlinear transition constraints</b> <br>
-J. Ortiz-Haro, E. Karpas, M. Katz , M. Toussaint.
-</p>
-
+<div class="mydiv">
+J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint (2022). <b>A Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving</b>. <i>Under review, submitted to IEEE Robotics and Automation Letters (RA-L).</i>
+</div>
+<br>
 
 
 ## Overview
 
-Show the videos of the real-world experiments
-Report computational time and number of solver nonlinear programs (nlp)
+
+#### Supplementary Video (XX min)
+
+{% include youtubePlayer.html id="O8KUgObAwh0" %}
+
+
+#### Real-world experiments: showcase (XX min)
+
+{% include youtubePlayer.html id="I8ZcgJUdF9Q" %}
+
 
 
 ## Building a Hanoi Tower
 
-|          | NLP | Time (s) |
-|----------|-----|------|
-| Problem1 | X  | X    |
-| Problem2 | X   | X    |
-| Problem3 | X   | X    |
+|          | N | Time (s) |
+|----------|:-----:|:------:|
+| Side to Middle | X  | X    |
+| Side to side | X   | X    |
+| Middle to side | X   | X    |
 {:.custom-table}
 
 
-#### Middle to Side
+#### Hanoi - Side to side 
 
-{% include youtubePlayer.html id="RIkcg8xZ88A" %}
+{% include youtubePlayer.html id="7G1aFCUKmPM" %}
 
-#### Side to middle
+#### Hanoi - Side to middle
 
-{% include youtubePlayer.html id="O8KUgObAwh0" %}
+{% include youtubePlayer.html id="NZ_ixp9lEyE"  %}
 
-#### Side to Side
+#### Hanoi - Middle to Side
 
-{% include youtubePlayer.html id="O8KUgObAwh0" %}
-
+{% include youtubePlayer.html id="qHv50xRosuc" %}
 
 ## Building a Tower with obstacles
 
 
-|          | NLP | Time (s) |
-|----------|-----|------|
-| Problem1 | X  | X    |
-| Problem2 | X   | X    |
-| Problem3 | X   | X    |
-| Problem4 | X   | X    |
+|          | N | Time (s) |
+|----------|:-----:|:------:|
+| Middle | X  | X    |
+| Transfer | X   | X    |
+| Middle-Tower | X   | X    |
+| Side-small | X   | X    |
 {:.custom-table}
 
 
 
-#### obstacles - Middle
+#### Obstacles - Middle
 
-{% include youtubePlayer.html id="emUWeMhippY" %}
+
+
+{% include youtubePlayer.html id="gZhjujhQBAo" %}
 
 #### Obstacles - transfer
-{% include youtubePlayer.html id="uZNDoS1frUI" %}
+
+
+
+{% include youtubePlayer.html id="_N4rXUonWEU" %}
+
 
 #### Obstacles - Middle - Tower
-{% include youtubePlayer.html id="pUtfXHKuG9c" %}
 
-#### Obstacles - Transfer
-{% include youtubePlayer.html id="t5cK-Wn8hHI" %}
+
+{% include youtubePlayer.html id="mAPHRygMG7k" %}
+
+#### Obstacles - Side - small
+
+
+{% include youtubePlayer.html id="gbkJwm9M9ts" %}
+
 
 ## Building a Tower 
 
 |          | NLP | Time (s) |
 |----------|-----|------|
-| Problem1 | X  | X    |
-| Problem2 | X   | X    |
-| Problem3 | X   | X    |
-| Problem4 | X   | X    |
+| Middle | X  | X    |
+| Side | X   | X    |
+| Transfer | X   | X    |
+| Transfer-samll | X   | X    |
 {:.custom-table}
 
 ### Tower - Middle
-{% include youtubePlayer.html id="YmwVos7zwSI" %}
+
+{% include youtubePlayer.html id="tp4oZEFd02s" %}
 
 ### Tower -Side
-{% include youtubePlayer.html id="Lp71Z43hMvk" %}
+
+{% include youtubePlayer.html id="hqFB2xtRZ2Y" %}
 
 ### Tower - Transfer
-{% include youtubePlayer.html id="gOyuaF3s8Gs" %}
+ 
+{% include youtubePlayer.html id="izvQasYEBls" %}
 
 
 ### Tower - Transfer - Small
-
-{% include youtubePlayer.html id="pe2AmF8sx2E" %}
+{% include youtubePlayer.html id="uoGfSIX_Qso" %}
 
