@@ -42,7 +42,7 @@ Duration: 2 min 10 s
 
 
 <p style="margin:0 0;">Metrics:</p>
-* **Time**: computational time (in seconds) needed to compute a solution (plan of tasks and motions)
+* **Time**: computational time (in seconds) to generate a solution (plan of tasks and motions)
 * **N**: number of symbolic actions of the found solution
 
 #### Building a Hanoi Tower
