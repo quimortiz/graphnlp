@@ -22,102 +22,105 @@ J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint (2022). <b>A Conflict-driven 
 <br>
 
 
-## Overview
+<!-- ## Overview -->
 
 
-#### Supplementary Video (XX min)
+### Supplementary Video 
 
-{% include youtubePlayer.html id="O8KUgObAwh0" %}
+Duration: 3 min 20 s
+
+{% include youtubePlayer.html id="NqaZqZoPoe8" %}
 
 
-#### Real-world experiments: showcase (XX min)
+### Showcase: All real-world experiments 
+
+Duration: 2 min 10 s
 
 {% include youtubePlayer.html id="I8ZcgJUdF9Q" %}
 
+## Real-world experiments
 
 
-## Building a Hanoi Tower
+<p style="margin:0 0;">Metrics:</p>
+* **Time**: computational time (in seconds) needed to compute a solution (plan of tasks and motions)
+* **N**: number of symbolic actions of the found solution
+
+#### Building a Hanoi Tower
 
 |          | N | Time (s) |
 |----------|:-----:|:------:|
-| Side to Middle | X  | X    |
-| Side to side | X   | X    |
-| Middle to side | X   | X    |
+| Side to middle | 12  | 9.4   |
+| Side to side | 24   | 25.1    |
+| Middle to side | 12   | 9.2    |
 {:.custom-table}
 
 
-#### Hanoi - Side to side 
+##### a) Hanoi - Side to side 
 
 {% include youtubePlayer.html id="7G1aFCUKmPM" %}
 
-#### Hanoi - Side to middle
+##### b) Hanoi - Side to middle
 
 {% include youtubePlayer.html id="NZ_ixp9lEyE"  %}
 
-#### Hanoi - Middle to Side
+##### c) Hanoi - Middle to side
 
 {% include youtubePlayer.html id="qHv50xRosuc" %}
 
-## Building a Tower with obstacles
+#### Building a Tower with obstacles
 
 
 |          | N | Time (s) |
 |----------|:-----:|:------:|
-| Middle | X  | X    |
-| Transfer | X   | X    |
-| Middle-Tower | X   | X    |
-| Side-small | X   | X    |
+| Middle | 12  | 5.5    |
+| Transfer | 16   | 27.2    |
+| Middle-tower | 12   | 8.9    |
+| Side-small | 8   | 8.1 |
 {:.custom-table}
 
 
 
-#### Obstacles - Middle
-
-
+##### a) Obstacles - Middle
 
 {% include youtubePlayer.html id="gZhjujhQBAo" %}
 
-#### Obstacles - transfer
-
-
+##### b) Obstacles - Transfer
 
 {% include youtubePlayer.html id="_N4rXUonWEU" %}
 
 
-#### Obstacles - Middle - Tower
-
+##### c) Obstacles - Middle-tower
 
 {% include youtubePlayer.html id="mAPHRygMG7k" %}
 
-#### Obstacles - Side - small
-
+##### d) Obstacles - Side-small
 
 {% include youtubePlayer.html id="gbkJwm9M9ts" %}
 
 
 ## Building a Tower 
 
-|          | NLP | Time (s) |
+|          | N | Time (s) |
 |----------|-----|------|
-| Middle | X  | X    |
-| Side | X   | X    |
-| Transfer | X   | X    |
-| Transfer-samll | X   | X    |
+| Middle | 12  | 2.9    |
+| Side | 12   | 5.7    |
+| Transfer | 24   | 37.1     |
+| Transfer-small | 12   | 6.9    |
 {:.custom-table}
 
-### Tower - Middle
+##### a) Tower - Middle
 
 {% include youtubePlayer.html id="tp4oZEFd02s" %}
 
-### Tower -Side
+##### b) Tower - Side
 
 {% include youtubePlayer.html id="hqFB2xtRZ2Y" %}
 
-### Tower - Transfer
+##### c) Tower - Transfer
  
 {% include youtubePlayer.html id="izvQasYEBls" %}
 
 
-### Tower - Transfer - Small
+##### d) Tower - Transfer - Small
 {% include youtubePlayer.html id="uoGfSIX_Qso" %}
 
