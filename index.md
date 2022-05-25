@@ -19,7 +19,12 @@ Project webpage of the paper:
 <div class="mydiv">
 J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint (2022). <b>A Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving</b>. <i>Under review, submitted to IEEE Robotics and Automation Letters (RA-L).</i>
 </div>
-<br>
+
+Paper Preprint (8 pages) <a href="{{site.baseurl}}/assets/root.pdf">PDF</a> 
+
+Appendix (4 pages) <a href="{{site.baseurl}}/assets/root.pdf">PDF</a> 
+
+(**Recommended**) Extended Version (Paper + Appendix) <a href="{{site.baseurl}}/assets/root.pdf">PDF</a> 
 
 
 <!-- ## Overview -->
