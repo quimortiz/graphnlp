@@ -24,6 +24,10 @@ J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint (2022). <b>A Conflict-driven 
 
 <!-- Appendix (4 pages) <a href="{{site.baseurl}}/assets/root.pdf">PDF</a> --> 
 
+
+Appendix <a href="{{site.baseurl}}/assets/appendix.pdf">PDF</a> 
+
+
 (**Recommended**) Extended Version (Paper + Appendix) <a href="{{site.baseurl}}/assets/root.pdf">PDF</a> 
 
 
