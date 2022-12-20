@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Graph-NLP Planner - A Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving
+    
+  </title>
+
+  <meta name="description" content="Ortiz-Haro J">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/graphnlp/assets/main.css">
+  <link rel="canonical" href="https://quimortiz.github.io/graphnlp/">
+  <link rel="alternate" type="application/rss+xml" title="A Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving" href="/graphnlp/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <!-- <a class="navbar-brand" href="/graphnlp/">A Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving</a> -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/graphnlp/">Home</a>
+        </li>
+        <!-- <li class="nav-item"> -->
+        <!--   <a class="nav-link" href="/graphnlp/about">About</a> -->
+        <!-- </li> -->
+        <!-- <li class="nav-item"> -->
+        <!--   <a class="nav-link" href="/graphnlp/posts">Posts</a> -->
+        <!-- </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/graphnlp/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/graphnlp/img/Screenshot from 2022-02-28 14-59-16-small.png')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Graph-NLP Planner</h1>
+            
+            <span class="subheading">J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <style>
+.mydiv {
+
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+</style>
+
+<p>Project webpage of the paper:</p>
+
+<div class="mydiv">
+J. Ortiz-Haro, E. Karpas, M. Katz and M. Toussaint (2022). <b>A Conflict-driven Interface between Symbolic Planning and Nonlinear Constraint Solving</b>. <i>IEEE Robotics and Automation Letters (RA-L).</i>
+</div>
+
+<!-- Paper Preprint (8 pages) <a href="/graphnlp/assets/root.pdf">PDF</a> -->
+
+<!-- Appendix (4 pages) <a href="/graphnlp/assets/root.pdf">PDF</a> -->
+
+<p><a href="https://arxiv.org/abs/2211.15275">Paper</a> (with Appendix)
+<!-- ## Overview --></p>
+
+<h3 id="supplementary-video">Supplementary Video</h3>
+
+<p>Duration: 3 min 20 s</p>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/CEQUv09xIHs" allowfullscreen="">
+  </iframe>
+</div>
+
+<h3 id="showcase-all-real-world-experiments">Showcase: All real-world experiments</h3>
+
+<p>Duration: 2 min 10 s</p>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/I8ZcgJUdF9Q" allowfullscreen="">
+  </iframe>
+</div>
+
+<h2 id="real-world-experiments">Real-world experiments</h2>
+
+<p style="margin:0 0;">Metrics:</p>
+<ul>
+  <li><strong>Time</strong>: computational time (in seconds) to generate a solution (plan of tasks and motions)</li>
+  <li><strong>N</strong>: number of symbolic actions of the found solution</li>
+</ul>
+
+<h4 id="building-a-hanoi-tower">Building a Hanoi Tower</h4>
+
+<table class="custom-table">
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">N</th>
+      <th style="text-align: center">Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Side to middle</td>
+      <td style="text-align: center">12</td>
+      <td style="text-align: center">9.4</td>
+    </tr>
+    <tr>
+      <td>Side to side</td>
+      <td style="text-align: center">24</td>
+      <td style="text-align: center">25.1</td>
+    </tr>
+    <tr>
+      <td>Middle to side</td>
+      <td style="text-align: center">12</td>
+      <td style="text-align: center">9.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="a-hanoi---side-to-side">a) Hanoi - Side to side</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/7G1aFCUKmPM" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="b-hanoi---side-to-middle">b) Hanoi - Side to middle</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/NZ_ixp9lEyE" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="c-hanoi---middle-to-side">c) Hanoi - Middle to side</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/qHv50xRosuc" allowfullscreen="">
+  </iframe>
+</div>
+
+<h4 id="building-a-tower-with-obstacles">Building a Tower with obstacles</h4>
+
+<table class="custom-table">
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">N</th>
+      <th style="text-align: center">Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Middle</td>
+      <td style="text-align: center">12</td>
+      <td style="text-align: center">5.5</td>
+    </tr>
+    <tr>
+      <td>Transfer</td>
+      <td style="text-align: center">16</td>
+      <td style="text-align: center">27.2</td>
+    </tr>
+    <tr>
+      <td>Middle-tower</td>
+      <td style="text-align: center">12</td>
+      <td style="text-align: center">8.9</td>
+    </tr>
+    <tr>
+      <td>Side-small</td>
+      <td style="text-align: center">8</td>
+      <td style="text-align: center">8.1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="a-obstacles---middle">a) Obstacles - Middle</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/gZhjujhQBAo" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="b-obstacles---transfer">b) Obstacles - Transfer</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/_N4rXUonWEU" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="c-obstacles---middle-tower">c) Obstacles - Middle-tower</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/mAPHRygMG7k" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="d-obstacles---side-small">d) Obstacles - Side-small</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/gbkJwm9M9ts" allowfullscreen="">
+  </iframe>
+</div>
+
+<h2 id="building-a-tower">Building a Tower</h2>
+
+<table class="custom-table">
+  <thead>
+    <tr>
+      <th> </th>
+      <th>N</th>
+      <th>Time (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Middle</td>
+      <td>12</td>
+      <td>2.9</td>
+    </tr>
+    <tr>
+      <td>Side</td>
+      <td>12</td>
+      <td>5.7</td>
+    </tr>
+    <tr>
+      <td>Transfer</td>
+      <td>24</td>
+      <td>37.1</td>
+    </tr>
+    <tr>
+      <td>Transfer-small</td>
+      <td>12</td>
+      <td>6.9</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="a-tower---middle">a) Tower - Middle</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/tp4oZEFd02s" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="b-tower---side">b) Tower - Side</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/hqFB2xtRZ2Y" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="c-tower---transfer">c) Tower - Transfer</h5>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/izvQasYEBls" allowfullscreen="">
+  </iframe>
+</div>
+
+<h5 id="d-tower---transfer---small">d) Tower - Transfer - Small</h5>
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/uoGfSIX_Qso" allowfullscreen="">
+  </iframe>
+</div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          
+          
+          
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Joaquim Ortiz-Haro 2022. Source code in
+        <a href="https://github.com/quimortiz/graphnlp">Github</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/graphnlp/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/graphnlp/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
+
+</body>
+
+</html>
